@@ -1,0 +1,145 @@
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Contêiner principal para alinhar o conteúdo */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+  }
+  
+  /* Header com Flexbox */
+  header {
+    background: #575656;
+    color: white;
+    
+  }
+  
+  .header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-menu2 {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header-menu2 li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+
+  
+  /* Seção de benefícios usando Grid */
+  .benefits {
+    padding: 50px 0;
+    background: #f4f4f4;
+  }
+  
+  .benefits h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .benefit-item {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #575656;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+.instagram-logo {
+    height: 25px;
+}
+
+/* Seção de Vagas em Destaque */
+.main-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .main-section h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .main-section p {
+    font-size: 19.2px;
+    margin-bottom: 40px;
+    color: #666;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .aba-emprego {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .aba-emprego h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .aba-emprego p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .aba-emprego .botao {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;   
+  }
+  
+  .aba-emprego .botao:hover {
+    background-color: #0056b3;
+  }
+  
+.logo-site {
+    width: 100px;
+    margin-top: 1px;
+    
+}
+
